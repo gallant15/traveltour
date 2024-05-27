@@ -1,0 +1,473 @@
+*{
+  margin: 0px;  
+  padding: 0px;
+}
+.container {
+    display: fixed;    
+    background-color: #023047;
+    width: 1440px;
+    height: 900px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    width: 100vw;
+    display: absolute;
+    justify-content: space-between;
+}
+.logo {
+    width: 10%;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    padding-top: 7px; 
+    padding-left: 20px;  
+}
+nav {
+    position: absolute;
+    top: 0;
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 100vw;
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 50px;
+}
+.apply {
+        border: 1px solid white;
+        top: 0px;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+}
+.apply:hover {
+        background-color: #023047;
+        color: red;
+}
+span {
+    font-size: 20px;   
+}
+p {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 72px;
+    position: absolute;
+    top: 229px;
+    padding-left: 107px;
+    color: white;
+}   
+.line {
+    position: absolute;
+    top: 260px;
+    padding-left: 50px;
+}
+#num {
+    font-family: Arial,;
+    font-size: 14px;
+    padding-left: 41px;
+    top: 240px;
+}
+#num1 {
+    font-family: Arial,;
+    font-size: 14px;
+    padding-left: 41px;
+    top: 380px;
+}
+.line1 {
+    position: absolute;
+    top: 412px;
+    padding-left: 112px; 
+}
+.line2 {
+    position: absolute;
+    top: 409px;
+    padding-left: 153px;
+}
+.visa {
+    position: absolute;
+    top: 450px;
+    padding-left: 112px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 500px;  
+}
+.box {
+    border: 1px;
+    background-color: white;
+    width: 215px;
+    height: 60px;
+    border-radius: 7px;
+    position: absolute;
+    top: 130px;
+}
+.reg {
+    width: 73px;
+    height: 22px;
+    top: 20px;
+    padding-left: 80px;
+    font-size: 18px;
+    color: rgba(251, 133, 0, 1);
+    text-align: center;
+}
+.box2 {
+    border: 1px solid blue;
+    width: 215px;
+    height: 60px;
+    border-radius: 7px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+.sign-in {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    width: 73px;
+    height: 22px;
+    position: absolute;
+    top: 20px;
+    padding-left: 80px;
+    font-size: 16px;
+    color: rgba(251, 133, 0, 1);
+    text-align: center;
+}
+.box3 {
+    border: 1px solid rgba(251, 133, 0, 1);
+    border-radius: 7px;
+    width: 446px;
+    height: 199px;
+    position: absolute;
+    left: 846px;
+}
+.rate {
+    font-size: 12px;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.price {
+    float: right;
+}
+.price1 {
+    float: right;
+}
+.class {
+    float: right;
+}
+.face {
+    position: absolute;
+    left: 1352px;
+    top: 233px;
+}
+.twitt {
+    position: absolute;
+    top: 286px;
+    left: 1352px;
+}
+.yout {
+    position: absolute;
+    top: 333px;
+    left: 1352px;
+}
+search {
+    position: absolute;
+    left: 50%;
+    top: 887px;
+    display: block;
+}
+.vector {
+    position: absolute;
+    top: 916.32px;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top: 1197px;
+    left: 110px;
+}
+.note {
+    font-size: 13px;
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top: 1281px;
+    left: 110px;
+    text-align: justify
+}
+.ellipse {
+    position: absolute;
+    top: 1112.98px;
+    left: 625px;
+}
+.rectangle {
+    position: absolute;
+    top: 1094px;
+    left: 670px;
+}
+.circle {
+    position: absolute;
+    top: 1109.66px;
+    left: 1260.68px;
+    z-index: -1;
+}
+.news {
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium';
+    font-weight: 700px;
+    position: absolute;
+    top: 1878px;
+    left: 110px;
+}
+.rectangle1 {
+    position: absolute;
+    top: 1962px;
+    left: 110px;
+}
+.rectangle2 {
+    position: absolute;
+    top: 1962px;
+    left: 625px;
+}
+.visa-free {
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top: 2152.95px;
+    left: 625px;
+}
+.rectangle3 {
+    position: absolute;
+    top: 1962px;
+    left: 989px;
+}
+.visa-free1 {
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top: 2152.95px;
+    left: 989px;
+}
+.visa-free2 {
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top: 2405.95px;
+    left: 625px;
+}
+.visa-free3 {
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top: 2405.95px;
+    left: 989px;
+}
+.MRV {
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium';
+    color: rgba(251, 133, 0, 1);
+    position: absolute;
+    top: 2266px;
+    left: 110px;
+}
+.date {
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium';
+    position: absolute;
+    top: 2305px;
+    left: 110px;
+}
+.MRV1 {
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium';
+    position: absolute;
+    top: 2339px;
+    left: 110px;
+}
+.rectangle4 {
+    position: absolute;
+    top: 2215px;
+    left: 625px;
+}
+.rectangle5 {
+    position: absolute;
+    top: 2215px;
+    left: 989px;
+}
+.container02 {
+    position: absolute;
+    top: 2500px;
+    display: fixed;    
+    background-color: #023047;
+    width: 1440px;
+    height: 900px;
+}
+.fly {
+    font-family: 'Segoe UI';
+    font-size: 140px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 2601px;
+    left: 152px;
+}
+.plane {
+    position: absolute;
+    top: 2400px;
+}
+.line9 {
+    position: absolute;
+    top: 2590px;
+    left: 956px;
+}
+.line8 {
+    position: absolute;
+    top: 2630px;
+    left: 957px;
+}
+.nonimmg {
+    position: absolute;
+    top: 2590px;
+    left: 980px;
+    font-family: 'Segoe UI';
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+}
+.visatype {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: rgba(105, 182, 220, 1);
+    position: absolute;
+    top: 2630px;
+    left: 980px;
+}
+.man {
+    position: absolute;
+    top: 2620px;
+    left: 1170px;
+}
+.nonimmg1 {
+    position: absolute;
+    top: 2820px;
+    left: 980px;
+    font-family: 'Segoe UI';
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+}
+.visatype1 {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: rgba(105, 182, 220, 1);
+    position: absolute;
+    top: 2860px;
+    left: 980px;
+}
+.man1 {
+    position: absolute;
+    top: 2850px;
+    left: 1170px;
+}
+.nonimmg2 {
+    position: absolute;
+    top: 3060px;
+    left: 980px;
+    font-family: 'Segoe UI';
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+}
+.visatype2 {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: rgba(105, 182, 220, 1);
+    position: absolute;
+    top: 3090px;
+    left: 980px;
+}
+.man2 {
+    position: absolute;
+    top: 3090px;
+    left: 1170px;
+}
+.container07 {
+    display: fixed;    
+    background-color: #367291;
+    width: 800px;
+    border-radius: 19px;
+    height: 120px;
+    position: absolute;
+    top: 3600px;
+    left: 25%;
+}
+.subscribe {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.container10 {
+    border: 1px solid white;
+    background-color: white;
+    width: 340px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 440px;;
+}
+.mail {
+    position: absolute;
+    top: 46px;
+    left: 650px;
+    background-color: rgb(110, 110, 207);
+    padding: 4px;
+}
+.container11 {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10%;
+    background-color: #023047;
+    position: absolute;
+    top: 3730px;
+    left: 30px;
+}
+.register {
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+}
+.terms {
+    padding-right: 40px;
+}
+.planebackground {
+    width: 1440px;
+    height: 2124px;
+    background-color: red;
+}
+.aero {
+    width: 1440px;
+    height: 2124px;
+    
+}
+
+    
+
+
+
+
