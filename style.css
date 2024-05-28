@@ -438,6 +438,7 @@ h2 {
     padding: 4px;
 }
 .container11 {
+    
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -462,12 +463,63 @@ h2 {
 }
 .aero {
     width: 1440px;
-    height: 2124px;
-    
+    height: 2124px;   
 }
-
-    
-
+.bubble img{
+    width: 10%;
+}
+.bubble {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    bottom: 0px;
+    animation: bubble 7s linear infinite;
+}
+@keyframes bubble {
+    from {bottom: 0px;}
+    to {top: 2000px;}
+0% {
+    transform: translateY(0);
+    opacity: 0;
+}
+0% {
+    transform: translateY(0);
+    opacity: 1;
+}
+50% {
+    transform: translateY(0);
+    opacity: 1;
+}
+100% {
+    transform: translateY(0);
+    opacity: 0;
+}
+}
+.bubble img:nth-child(1) {
+    animation-delay: 2s;
+}
+.bubble img:nth-child(2) {
+    animation-delay: 1s;
+}
+.bubble img:nth-child(3) {
+    animation-delay: 3s;
+}
+.bubble img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+.bubble img:nth-child(5) {
+    animation-delay: 3s;
+}
+.bubble img:nth-child(6) {
+    animation-delay: 6s;
+}
+.bubble img:nth-child(7) {
+    animation-delay: 7s;
+}
 
 
 
